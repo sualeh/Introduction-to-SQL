@@ -1,0 +1,8 @@
+target/
+workspace/
+bin/
+build/
+.gradle/
+
+*.patch
+*.db
