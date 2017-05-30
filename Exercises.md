@@ -18,6 +18,7 @@ Complete the download and setup steps below. Go through each exercise, and only 
 
 --------
 
+
 ## Exercise 1 - Queries
 
 ### 1.1
@@ -26,6 +27,8 @@ Run all of the `SELECT` statements from the slides, and make sure that you get t
 ### 1.2
 Run a `SELECT` statement to get a list of all products sold by Fred, without any duplicates, and in alphabetical order.
 
+
+
 ## Exercise 2 - Modifications
 
 ### 2.1
@@ -33,6 +36,8 @@ Run all of the `INSERT`, `UPDATE` and `DELETE` statements from the slides, and v
 
 ### 2.2
 Add a new product using an `INSERT` statement, verify that it got added using a `SELECT`. Then `DELETE` the product you added, and verify it got deleted (and nothing else did).
+
+
 
 ## Exercise 3 - Joins
 
@@ -48,3 +53,17 @@ Find the buyer, product and price for all products sold by Fred. Sort by buyer.
 ### 4.1
 Run all of the unions from the slides, and make sure that you get the same results as shown.
 
+
+## Exercise 5 - Aggregate Functions
+
+### 5.1
+Run all of the `SELECT` statements for aggregate functions from the slides, and make sure that you get the same results as shown.
+
+### 5.2
+Find the gross sale amount for each seller of products, in a column called `GROSS_SALES`. Show just the seller name and gross sale amount, but only if the gross sale amount was over $100.
+
+
+## Exercise 6 - Data Definition Language (DDL)
+
+### 6.1
+Run all of the `CREATE` and `DROP` statements from the slides, and make sure that you get the same results as shown.
