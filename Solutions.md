@@ -2,7 +2,7 @@
 
 ## Exercise 1 - Queries
 
-### 1.1 
+### 1.1
 None
 
 ### 1.2
@@ -19,7 +19,7 @@ ORDER BY
 
 ## Exercise 2 - Modifications
 
-### 2.1 
+### 2.1
 None
 
 ### 2.2
@@ -32,16 +32,16 @@ VALUES
 ```
 - Verify,
 ```sql
-SELECT 
+SELECT
   *
 FROM
-	PRODUCTS
+  PRODUCTS
 ```
 - Delete,
 ```sql
 DELETE
 FROM
-	PRODUCTS
+  PRODUCTS
 WHERE
   PRODUCT = 'New Product'
 ```
@@ -49,7 +49,7 @@ WHERE
 
 ## Exercise 3 - Joins
 
-### 3.1 
+### 3.1
 None
 
 ### 3.2
@@ -70,6 +70,6 @@ ORDER BY
 
 ## Exercise 4 - Unions
 
-### 4.1 
+### 4.1
 None
 
