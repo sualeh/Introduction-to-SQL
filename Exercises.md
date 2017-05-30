@@ -4,7 +4,7 @@ Complete the download, and setup steps below. Go through each exercise, and only
 
 -------- 
 
-<span style="background-color: rgb(255, 255, 128);">
+<div style="background-color: rgb(255, 255, 128);">
 
 ## Setup Exercises
 
@@ -18,7 +18,7 @@ Complete the download, and setup steps below. Go through each exercise, and only
 - A browser tab will open up
 - Click the `Connect` button to connect to the database
 
-</span>
+</div>
 
 --------
 
