@@ -3,6 +3,7 @@
 Complete the download, and setup steps below. Go through each exercise, and only look at the [solutions](Solutions.md) after you are done.
 
 ----- 
+-----
 
 ## Setup Exercises
 
@@ -17,8 +18,14 @@ Complete the download, and setup steps below. Go through each exercise, and only
 - Click the `Connect` button to connect to the database
 
 -----
+-----
 
-## Exercise 1 - Selects
+## Exercise 1 - Querying for Data
  
 - **1.1** - Run all of the SELECT statements from the slides, and make sure that you get the same results as shown
 - **1.2** - Run a SELECT statement to get a list of all products sold by Fred, without any duplicates, and in alphabetical order
+
+## Exercise 2 - Modifying Data
+ 
+- **2.1** - Run all of the INSERT, UPDATE and DELETE statements from the slides, and verify that you get results using SELECT statements
+- **2.2** - 
