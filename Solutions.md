@@ -2,10 +2,10 @@
 
 ## Exercise 1 - Queries
 
-### **1.1** 
+### 1.1 
 None
 
-### **1.2**
+### 1.2
 ```sql
 SELECT DISTINCT
   PRODUCT
@@ -19,10 +19,10 @@ ORDER BY
 
 ## Exercise 2 - Modifications
 
-### **2.1** 
+### 2.1 
 None
 
-### **2.2**
+### 2.2
 - Add a product,
 ```sql
 INSERT INTO PRODUCTS
@@ -49,10 +49,10 @@ WHERE
 
 ## Exercise 3 - Joins
 
-### **3.1** 
+### 3.1 
 None
 
-### **3.2**
+### 3.2
 ```sql
 SELECT
   BUYER,
@@ -70,6 +70,6 @@ ORDER BY
 
 ## Exercise 4 - Unions
 
-### **4.1** 
+### 4.1 
 None
 
