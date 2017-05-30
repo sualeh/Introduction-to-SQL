@@ -18,12 +18,22 @@ Complete the download and setup steps below. Go through each exercise, and only 
 
 --------
 
-## Exercise 1 - Querying for Data
+## Exercise 1 - Queries
 
 - **1.1** - Run all of the `SELECT` statements from the slides, and make sure that you get the same results as shown.
 - **1.2** - Run a `SELECT` statement to get a list of all products sold by Fred, without any duplicates, and in alphabetical order.
 
-## Exercise 2 - Modifying Data
+## Exercise 2 - Modifications
 
 - **2.1** - Run all of the `INSERT`, `UPDATE` and `DELETE` statements from the slides, and verify that you get results using `SELECT` statements.
-- **2.2** - Add a new product using an `INSERT` statement, verify that it got added using a `SELECT`. Then `DELETE` the product you added, and verify it got deleted (and nothing else did).
+- **2.2** - Find the buyer, product and price for all products sold by Fred. Sort by buyer.
+
+## Exercise 3 - Joins
+
+- **3.1** - Run all of the joins from the slides, and make sure that you get the same results as shown.
+- **3.2** - 
+
+## Exercise 4 - Unions
+
+- **4.1** - Run all of the unions from the slides, and make sure that you get the same results as shown.
+
