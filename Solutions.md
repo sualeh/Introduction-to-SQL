@@ -1,9 +1,9 @@
 # Solutions to Exercises
 
 ## Exercise 1 - Querying for Data
- 
+
 - **1.1** - None
-- **1.2** 
+- **1.2**
 ```sql
 SELECT DISTINCT
   PRODUCT
@@ -16,6 +16,6 @@ ORDER BY
 ```
 
 ## Exercise 2 - Modifying Data
- 
+
 - **2.1** - None
-- **2.2** 
+- **2.2**
