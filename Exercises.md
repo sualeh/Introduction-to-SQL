@@ -39,7 +39,7 @@ Add a new product using an `INSERT` statement, verify that it got added using a 
 ### 3.1
 Run all of the joins from the slides, and make sure that you get the same results as shown.
 
-### 2.2
+### 3.2
 Find the buyer, product and price for all products sold by Fred. Sort by buyer.
 
 
