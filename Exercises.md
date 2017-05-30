@@ -2,8 +2,9 @@
 
 Complete the download, and setup steps below. Go through each exercise, and only look at the [solutions](Solutions.md) after you are done.
 
------ 
------
+-------- 
+
+<span style="background-color: rgb(255, 255, 128);">
 
 ## Setup Exercises
 
@@ -13,12 +14,13 @@ Complete the download, and setup steps below. Go through each exercise, and only
 ## Start the Database Server
 
 - Start a command shell in the directory that you downloaded or cloned from GitHub
-- Run `gradlew  run` command
+- Run the `gradlew  run` command
 - A browser tab will open up
 - Click the `Connect` button to connect to the database
 
------
------
+</span>
+
+--------
 
 ## Exercise 1 - Querying for Data
  
