@@ -33,7 +33,7 @@ task startDatabase(type: JavaExec) {
 
 def buildAliases = [
    'run' : ['flywayMigrate', 'startDatabase'],
-   'rebuild' : ['clean', 'flywayMigrate'],
+   'rebuild' : ['clean', 'flywayMigrate']
 ]
 def expandedTaskList = []
  
