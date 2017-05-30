@@ -55,3 +55,16 @@ VALUES
 ('S103', 'Teacher', '2017-02-10', '2017-03-11'),
 ('S104', 'Fireman', '2017-04-07', '2017-05-16')
 ;
+
+--
+
+INSERT INTO EMPLOYEES
+(SNO, FIRSTNAME, LASTNAME, SALARY, POSITION)
+VALUES
+('SL100', 'John', 'White', 30000, 'Manager'),
+('SL101', 'Susan', 'Brand', 24000, 'Manager'),
+('SL102', 'David', 'Ford', 12000, 'Project Manager'),
+('SL103', 'Ann', 'Beech', 12000, 'Project Manager'),
+('SL104', 'Mary', 'Howe', 9000, 'Project Manager'),
+;
+
