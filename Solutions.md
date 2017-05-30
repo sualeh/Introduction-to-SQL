@@ -2,8 +2,10 @@
 
 ## Exercise 1 - Queries
 
-- **1.1** - None
-- **1.2**
+### **1.1** 
+None
+
+### **1.2**
 ```sql
 SELECT DISTINCT
   PRODUCT
@@ -17,23 +19,25 @@ ORDER BY
 
 ## Exercise 2 - Modifications
 
-- **2.1** - None
-- **2.2**
-Add a product,
+### **2.1** 
+None
+
+### **2.2**
+- Add a product,
 ```sql
 INSERT INTO PRODUCTS
   (PRODUCT, PRICE, CATEGORY, MANUFACTURER)
 VALUES
   ('New Product', 14.99, 'Clothing', 'Fashion, Inc.')
 ```
-Verify,
+- Verify,
 ```sql
 SELECT 
   *
 FROM
 	PRODUCTS
 ```
-Delete,
+- Delete,
 ```sql
 DELETE
 FROM
@@ -41,12 +45,14 @@ FROM
 WHERE
   PRODUCT = 'New Product'
 ```
-Verify using the `SELECT` again
+- Verify using the `SELECT` again
 
 ## Exercise 3 - Joins
 
-- **3.1** - None
-- **3.2**
+### **3.1** 
+None
+
+### **3.2**
 ```sql
 SELECT
   BUYER,
@@ -64,5 +70,6 @@ ORDER BY
 
 ## Exercise 4 - Unions
 
-- **4.1** - None
+### **4.1** 
+None
 
