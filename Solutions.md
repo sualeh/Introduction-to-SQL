@@ -19,21 +19,21 @@ ORDER BY
 
 - **2.1** - None
 - **2.2**
-  - Add a product,
+Add a product,
 ```sql
 INSERT INTO PRODUCTS
   (PRODUCT, PRICE, CATEGORY, MANUFACTURER)
 VALUES
   ('New Product', 14.99, 'Clothing', 'Fashion, Inc.')
 ```
-  - Verify,
+Verify,
 ```sql
 SELECT 
   *
 FROM
 	PRODUCTS
 ```
-  - Delete,
+Delete,
 ```sql
 DELETE
 FROM
@@ -41,4 +41,5 @@ FROM
 WHERE
   PRODUCT = 'New Product'
 ```
-  - Verify using the `SELECT` again
+Verify using the `SELECT` again
+
