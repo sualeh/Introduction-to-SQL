@@ -1,5 +1,7 @@
 # Solutions to Exercises
 
+(Go back to the [exercises](Exercises.md).)
+
 ## Exercise 1 - Queries
 
 ### 1.1
