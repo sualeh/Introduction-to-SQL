@@ -1,7 +1,7 @@
 
 buildscript {
     dependencies {
-        classpath 'com.h2database:h2:1.4.191'
+        classpath 'com.h2database:h2:1.4.196'
     }
 }
 
@@ -16,7 +16,7 @@ repositories {
 }
 
 dependencies {
-  runtime 'com.h2database:h2:1.4.191'
+  runtime 'com.h2database:h2:1.4.196'
 }
 
 flyway {
