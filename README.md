@@ -7,3 +7,7 @@ First, review the [slides for the **Introduction to SQL course**](https://docs.g
 -----
 
 The slides and course material are copyrighted, and licensed under the [GNU General Public License](LICENSE).
+
+-----
+
+[![Build Status](https://travis-ci.org/sualeh/Introduction-to-SQL.svg?branch=master)](https://travis-ci.org/sualeh/Introduction-to-SQL)
