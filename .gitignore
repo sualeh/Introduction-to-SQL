@@ -3,6 +3,7 @@ workspace/
 bin/
 build/
 .gradle/
+docs/
 
 *.patch
 *.db
