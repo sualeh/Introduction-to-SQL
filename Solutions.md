@@ -1,6 +1,9 @@
+# Introduction to SQL
 # Solutions to Exercises
 
 (Go back to the [exercises](Exercises.md).)
+
+-----
 
 ## Exercise 1 - Queries
 
@@ -8,6 +11,26 @@
 None
 
 ### 1.2
+```sql
+SELECT
+  *
+FROM
+  PRODUCTS
+WHERE
+  CATEGORY = 'Household'
+```
+
+### 1.3
+```sql
+SELECT
+  *
+FROM
+  PRODUCTS
+WHERE
+  PRICE < 200
+```
+
+### 1.4
 ```sql
 SELECT DISTINCT
   PRODUCT
@@ -18,6 +41,9 @@ WHERE
 ORDER BY
   PRODUCT
 ```
+
+### 1.5
+Single quotes mark the start and end of text, or a "string". Using double quotes or no quotes can result in a SQL error. Try #1.2 with double-quotes around "Household" and see what happens. Then try it again with any quotes.
 
 
 ## Exercise 2 - Modifications
