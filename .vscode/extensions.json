@@ -1,0 +1,22 @@
+{
+	"recommendations": [
+		"EditorConfig.EditorConfig",
+		"bierner.markdown-footnotes",
+		"marp-team.marp-vscode",
+		"ms-python.black-formatter",
+		"ms-python.pylint",
+		"ms-python.python",
+		"ms-python.vscode-pylance",
+		"ms-toolsai.datawrangler",
+		"ms-toolsai.jupyter",
+		"ms-toolsai.jupyter-keymap",
+		"ms-toolsai.jupyter-renderers",
+		"ms-toolsai.jupyterlab",
+		"ms-toolsai.vscode-jupyter-cell-tags",
+		"ms-toolsai.vscode-jupyter-slideshow",
+		"usernamehw.todo-md",
+		"yy0931.vscode-sqlite3-editor",
+		"zeshuaro.vscode-python-poetry",
+	],
+	"unwantedRecommendations": []
+}

@@ -1,0 +1,44 @@
+{
+	"[markdown]": {
+		"editor.quickSuggestions": {
+			"comments": "on",
+			"strings": "on",
+			"other": "on"
+		}
+	},
+	"editor.fontSize": 14,
+	"editor.minimap.enabled": false,
+	"editor.overviewRulerBorder": false,
+	"editor.wrappingIndent": "indent",
+	"git.autoStash": true,
+	"git.confirmSync": false,
+	"git.postCommitCommand": "sync",
+	"git.showActionButton": {
+		"commit": false,
+		"publish": false,
+		"sync": false
+	},
+	"jupyter.showVariableViewWhenDebugging": true,
+	"markdown.preview.breaks": true,
+	"notebook.lineNumbers": "on",
+	"notebook.output.fontSize": 14,
+	"notebook.output.scrolling": true,
+	"notebook.output.wordWrap": true,
+	"python.testing.pytestArgs": [
+		"."
+	],
+	"python.testing.pytestEnabled": true,
+	"python.testing.unittestEnabled": false,
+	"scm.showActionButton": false,
+	"scm.showInputActionButton": false,
+	"todomd.autoArchiveTasks": true,
+	"todomd.autoBumpRecurringOverdueDate": true,
+	"todomd.completionDateIncludeTime": true,
+	"todomd.defaultArchiveFile": "${workspaceFolder}/todo.archive.md",
+	"todomd.defaultFile": "${workspaceFolder}/todo.md",
+	"todomd.defaultSomedayFile": "${workspaceFolder}/someday.md",
+	"window.zoomLevel": 1.2,
+	"workbench.editorAssociations": {
+		"*.md": "vscode.markdown.preview.editor"
+	}
+}

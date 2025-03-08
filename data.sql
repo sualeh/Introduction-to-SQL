@@ -1,3 +1,4 @@
+-- database: sqlite.db
 --
 
 INSERT INTO PRODUCTS
@@ -36,7 +37,7 @@ VALUES
 ('S103', 'IAI', 58),
 ('S104', 'PR1', 68),
 ('S104', 'IAI', 65),
-('S108', 'DBS', 40),
+('S108', 'DBS', 40)
 ;
 
 --
@@ -65,6 +66,6 @@ VALUES
 ('SL101', 'Susan', 'Brand', 24000, 'Manager'),
 ('SL102', 'David', 'Ford', 12000, 'Project Manager'),
 ('SL103', 'Ann', 'Beech', 12000, 'Project Manager'),
-('SL104', 'Mary', 'Howe', 9000, 'Project Manager'),
+('SL104', 'Mary', 'Howe', 9000, 'Project Manager')
 ;
 
