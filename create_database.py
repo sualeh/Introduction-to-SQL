@@ -1,3 +1,7 @@
+"""
+Create database schema and populate with initial data.
+"""
+
 import os
 import logging
 from sqlalchemy import text, Engine, Connection
@@ -5,7 +9,8 @@ from sqlalchemy import text, Engine, Connection
 
 # Configure logger
 logging.basicConfig(
-    level=logging.ERROR, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    level=logging.ERROR,
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
 
@@ -24,27 +29,20 @@ def execute_sql_script(connection: Connection, sql_file_path: str) -> None:
     """
     try:
         if os.path.exists(sql_file_path):
-            logger.info(f"Executing SQL script: {sql_file_path}")
-            with open(sql_file_path, "r") as file:
+            logger.info("Executing SQL script: %s", sql_file_path)
+            with open(sql_file_path, "r", encoding="utf-8") as file:
                 sql_script = file.read()
                 # Split script by semicolons for multiple statements
                 statements = sql_script.split(";")
                 for statement in statements:
                     if statement.strip():
-                        try:
-                            connection.execute(text(statement))
-                        except Exception as e:
-                            logger.error(f"Error executing SQL statement: {e}")
-                            logger.error(f"Problematic statement: {statement.strip()}")
-                            raise
+                        connection.execute(text(statement))
         else:
-            logger.warning(f"SQL script {sql_file_path} not found.")
-            raise FileNotFoundError(f"SQL script file not found: {sql_file_path}")
-    except FileNotFoundError as e:
-        logger.error(f"File not found: {e}")
-        raise
+            raise FileNotFoundError(
+                f"SQL script file not found: {sql_file_path}"
+            )
     except Exception as e:
-        logger.error(f"Error in executing SQL script: {e}")
+        logger.error("Error in executing SQL script: %s", e)
         raise
 
 
@@ -61,14 +59,9 @@ def create_database(engine: Engine) -> None:
     try:
         logger.info("Starting database creation")
         with engine.begin() as connection:
-            try:
-                execute_sql_script(connection, "schema.sql")
-                execute_sql_script(connection, "data.sql")
-                logger.info("Database created successfully")
-            except Exception as e:
-                logger.error(f"Database creation failed: {e}")
-                connection.rollback()
-                raise
+            execute_sql_script(connection, "schema.sql")
+            execute_sql_script(connection, "data.sql")
+            logger.info("Database created successfully")
     except Exception as e:
-        logger.error(f"Error in creating database: {e}")
+        logger.error("Error in creating database: %s", e)
         raise
